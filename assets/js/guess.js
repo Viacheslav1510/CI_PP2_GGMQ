@@ -43,8 +43,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function checkAnswer() {
     if (attemptsLeft > 0) {
+        --attemptsLeft; 
+        atemptsLeftElement.textContent = attemptsLeft;
+        let guessNumber = parseInt(guessInput.value);
 
     } else {
-        
+
     }
 }
