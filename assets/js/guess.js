@@ -74,4 +74,6 @@ function checkAnswer() {
         atemptsLeftElement.textContent = 0;
         gameImage.src = "https://media2.giphy.com/media/ka6M66Z58QEcXadCd4/giphy.gif?cid=ecf05e47d63eubhh0lfp3ahadp4u93dwwien84bjkmc5m6v6&rid=giphy.gif&ct=g"
     }
+    
+    guessInput.value = '';
 }
