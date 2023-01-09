@@ -31,6 +31,20 @@ document.addEventListener("DOMContentLoaded", function() {
     guessInput.addEventListener('keydown', function(event) {
       if (event.key === "Enter") {
         checkAnswer();
-	  };
+	  }
     })
 });
+
+/**
+ * checkAnswer function checks if user's input compares to random generated number 
+ *  while attempts to find number greater than "0".
+ * This function decreases attemptsLeft variable by -1  with every user's input.
+ */
+
+function checkAnswer() {
+    if (attemptsLeft > 0) {
+
+    } else {
+        
+    }
+}
