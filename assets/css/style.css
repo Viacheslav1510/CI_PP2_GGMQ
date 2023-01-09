@@ -146,3 +146,17 @@ input[type=number] {
     padding-right: 4%;
     font-size: 1.25em;
 }
+
+/* Quiz page style */
+.quiz-game {
+  display: inline-table;
+  height: 30vh;
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  border: 2px solid #EAC7C7;
+  background-image: linear-gradient(to right top, #b0a8b9, 
+                  #d0b0bc, #e8bcb4, #ebd0ac, #d7e9b9);
+  border-radius: 10px;
+}
