@@ -47,6 +47,16 @@ function checkAnswer() {
         atemptsLeftElement.textContent = attemptsLeft;
         let guessNumber = parseInt(guessInput.value);
 
+        if (guessNumber === number) {
+
+        } else if (guessNumber === 0 || guessNumber > 10) {
+
+        } else if (guessNumber > number) {
+
+        } else {
+            
+        }
+
     } else {
 
     }
