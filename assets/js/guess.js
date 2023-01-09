@@ -81,5 +81,12 @@ function checkAnswer() {
  * resetBtn.addEventListener uses Reset Button for reset game and memorize high score.
  */
 resetBtn.addEventListener('click', function() {
-    
+    number = Math.floor(Math.random()*10) + 1;
+    curScore = 4;
+    attemptsLeft = 4
+    message.textContent = "Guess the number between 1 and 10";
+    currentScoreElement.textContent = curScore;
+    atemptsLeftElement.textContent = attemptsLeft;
+    guessInput.value = '';
+    gameImage.src = "https://media4.giphy.com/media/4JVTF9zR9BicshFAb7/giphy.gif?cid=ecf05e472jxro2loryxtf29rkg8aj9kbtmod9qljyyxpfiyd&rid=giphy.gif&ct=g";
 })
