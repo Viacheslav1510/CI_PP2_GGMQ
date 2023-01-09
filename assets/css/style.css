@@ -25,4 +25,16 @@ body {
     background-image: linear-gradient(to right top, #b0a8b9, #d0b0bc,
                        #e8bcb4, #ebd0ac, #d7e9b9);
     border-radius: 10px;
-  }
+}
+
+/* footer */
+#footer {
+    position:fixed;
+    width: 100%;
+    bottom: 0px;
+    padding: 2%;
+    text-align: center;
+    background-color: white;
+    margin-top: auto;
+}
+
