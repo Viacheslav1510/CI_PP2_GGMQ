@@ -54,15 +54,18 @@ function checkAnswer() {
         } else if (guessNumber === 0 || guessNumber > 10) {
             message.textContent = "Please enter the number from 1 to 10";
             gameImage.src = "https://media3.giphy.com/media/9QrNWBKvBpCw0/giphy.gif?cid=ecf05e4762wdt2o99qe09niyixcqx8i48v9pbv7hdyy40xrg&rid=giphy.gif&ct=g";
-
+            curScore--;
+            currentScoreElement.textContent = curScore;
         } else if (guessNumber > number) {
             message.textContent = `Number ${guessNumber} is too high.`;
             gameImage.src = "https://media3.giphy.com/media/0PRjgsFnJIQHlscMip/giphy.gif?cid=ecf05e4705bn3vm3tqkduw6gij0g4ega66vy4431tgpweell&rid=giphy.gif&ct=g";
-      
+            curScore--;
+            currentScoreElement.textContent = curScore;
         } else {
             message.textContent = `Number ${guessNumber} is too low.`;
             gameImage.src = "https://media3.giphy.com/media/8AlXqy1CZrixGd8OvJ/giphy.gif?cid=ecf05e47z1pxgikm16avzx9dy9v34rzfkfaingrebj7jy5tc&rid=giphy.gif&ct=g";
-      
+            curScore--;
+            currentScoreElement.textContent = curScore;
         }
 
     } else {
