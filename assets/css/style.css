@@ -31,7 +31,7 @@ body {
 .top {
     display: flex;
     justify-content: space-around;
-    margin-top: 3%;
+    margin-top: 1%;
   }
   
 .top p {
@@ -39,8 +39,9 @@ body {
     border-radius: 8px;
     color: #fff;
     text-align: center;
+    margin-left: 20px;
     padding: 8px;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
@@ -60,6 +61,32 @@ body {
 #reset:hover {
     background: #1A0000;
     text-decoration: none;
+}
+
+/* guess number main container */
+#message {
+    text-align: center;
+    color: #170055;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+  
+#image {
+    width: 100%;
+    height: 380px;
+}
+  
+.game-container p, button {
+    margin: 1% 2%;
+}
+  
+.guess {
+    display: flex;
+    justify-content: center;
+}
+
+.guess-score {
+    font-weight: bold;
 }
 
 /* footer */
