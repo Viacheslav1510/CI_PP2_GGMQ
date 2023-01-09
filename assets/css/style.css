@@ -85,6 +85,37 @@ body {
     justify-content: center;
 }
 
+input[type=number] {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 10%;
+    padding: 3px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+      border-radius: 10px;
+}
+
+#check {
+    background-image: -webkit-linear-gradient(top, #170055, #480032);
+    background-image: -moz-linear-gradient(top, #170055, #480032);
+    background-image: -ms-linear-gradient(top, #170055, #480032);
+    background-image: -o-linear-gradient(top, #170055, #480032);
+    background-image: linear-gradient(to bottom, #170055, #480032);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+#check:hover {
+    background: #007965;
+    text-decoration: none;
+}
+
 .guess-score {
     font-weight: bold;
 }
