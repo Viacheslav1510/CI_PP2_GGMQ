@@ -6,7 +6,23 @@
 }
   
 body {
-      background-image: url('../images/bg.jpg');
-      background-repeat: no-repeat;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
     height: 100vh;
 }
+
+/* container for guess game and contact form */
+.game-container {
+    font-size: 1.5rem;
+    display: inline-table;
+    text-align: center;
+    height: 30vh;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    border: 2px solid #EAC7C7;
+    background-image: linear-gradient(to right top, #b0a8b9, #d0b0bc,
+                       #e8bcb4, #ebd0ac, #d7e9b9);
+    border-radius: 10px;
+  }
