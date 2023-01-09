@@ -10,9 +10,29 @@
         <title>Quiz</title>
     </head>
     <body>
-
-
-
+        
+        <main>
+            <div class="progress">
+                <div class="score">
+                    <p>Current Score: <span id="cur-score">0</span>/10</p>
+                </div>
+                <div id="progress-bar"> 
+                    <div id="progress-line"></div>
+                </div>  
+            </div>
+            <div class="quiz-game">
+                <div id="question"></div>
+                <ul id="answer">
+                    <li>
+                      <label>
+                        <input type="radio" name="answer" class="answer">
+                        <span ></span>
+                      </label>
+                    </li>
+                </ul>
+                <button class="submit-btn" id="submit">Answer</button>
+            </div>
+        </main>
 
         <script src="assets/js/quiz_data.js"></script>
         <script src="assets/js/quiz_code.js"></script> 
