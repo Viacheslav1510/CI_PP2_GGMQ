@@ -50,7 +50,8 @@ function checkAnswer() {
         if (guessNumber === number) {
             message.textContent = `Correct! I was thinking of ${number}.`
             gameImage.src = "https://media1.giphy.com/media/l2Z84eFooeHJu/giphy.gif?cid=ecf05e47xbrf7nt6dqv3jrbf7jgob0tpj65q4kczdcqw8swq&rid=giphy.gif&ct=g";
-
+            highScore = curScore > highScore ? curScore : highScore;
+            highestScore.textContent = highScore;
         } else if (guessNumber === 0 || guessNumber > 10) {
             message.textContent = "Please enter the number from 1 to 10";
             gameImage.src = "https://media3.giphy.com/media/9QrNWBKvBpCw0/giphy.gif?cid=ecf05e4762wdt2o99qe09niyixcqx8i48v9pbv7hdyy40xrg&rid=giphy.gif&ct=g";
