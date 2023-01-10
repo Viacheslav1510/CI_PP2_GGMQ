@@ -8,3 +8,12 @@ let submitBtn = document.getElementById('submit');
 let currentScoreQuiz = document.getElementById('cur-score');
 let progressBar = document.getElementById('progress-line');
 let quizGameContainer = document.querySelector('.quiz-game');
+
+
+/** showQuestion function gets data from "const quiz" and shows question with questionIndex variable.
+ * This function uses the loop to show answers 
+ * 
+ */
+function showQuestion() {
+    
+}
