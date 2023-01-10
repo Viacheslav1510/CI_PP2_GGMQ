@@ -95,8 +95,8 @@ The website cosists of three separate pages:
   - Maing section with name, email and message input. Button Send Message under the message text area
   - Footer with links to Guess a Number game, Quiz and link for social media Linkedin
 ### Wireframes
-<details><summary>Guess a Number</summary>
-<img src="docs/wireframes/homepage.png">
+<details><summary>Big Screens</summary>
+<img src="docs/wireframes/big-screens.png">
 </details>
 <details><summary>Quiz</summary>
 <img src="docs/wireframes/homepage.png">
