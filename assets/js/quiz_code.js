@@ -58,7 +58,15 @@ function checkAnswer() {
         questionIndex++;
         showQuestion();
     } else {
-        
+        clearHtml()
     }
 
+}
+
+/**
+ * clearHtml function clears question amd answers container to show result.
+ */
+function clearHtml() {
+    document.getElementById('question').innerHTML = '';
+    document.getElementById('answer').innerHTML = '';
 }
