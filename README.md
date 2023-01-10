@@ -98,11 +98,11 @@ The website cosists of three separate pages:
 <details><summary>Big Screens</summary>
 <img src="docs/wireframes/big-screens.png">
 </details>
-<details><summary>Quiz</summary>
-<img src="docs/wireframes/homepage.png">
+<details><summary>Medium screens - tablets</summary>
+<img src="docs/wireframes/medium-screens.png">
 </details>
-<details><summary>Contact</summary>
-<img src="docs/wireframes/homepage.png">
+<details><summary>Small screens - mobile</summary>
+<img src="docs/wireframes/small-screens.png">
 </details>
 
 ## Technologies Used
