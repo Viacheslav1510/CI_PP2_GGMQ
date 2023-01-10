@@ -69,6 +69,8 @@ function checkAnswer() {
         clearHtml();
         showResult();
     }
+
+    updateProgressBar();
 }
 
 /**
@@ -102,4 +104,15 @@ function showResult() {
     questionContainer.innerHTML = resultContent;
     submitBtn.textContent = "Play Again";
     submitBtn.onclick = () => history.go();
+}
+
+/**
+ * updateProgressBar function updates progress bar from 0% to 100% with each submit.
+ * it gets ProgressBar "width" attribute and increases by 10% step by step.
+ */
+function updateProgressBar() {
+    progressBar.setAttribute("style", "width:0%")
+    percentage += 10;
+    progressBar.style.width = `${percentage}%`;
+    progressBar.innerHTML = `${percentage}%`;
 }
