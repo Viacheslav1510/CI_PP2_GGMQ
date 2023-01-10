@@ -18,6 +18,9 @@ The website represents three pages with Guess a Number game, Quiz about math and
     - [First-time User](#first-time-user)
     - [Returning User](#returning-user)
     - [Site Owner](#site-owner)
+- [Design](#design)
+  - [Design Choices](#design-choices)
+  - [Colour](#colour)
 
 ## Project Goals
 ### User Goals
@@ -59,3 +62,11 @@ The website represents three pages with Guess a Number game, Quiz about math and
 13. As the site owner I want users to easy find what this website about
 14. As the site owner I want to interest the user in my games
 15. As the site owner I want users to contact me easily
+
+## Design
+### Design Choices
+The design across the pages was kept simple and consistent. Background presented with Background image and main container background was taken from [mycolor.space - color palettes](https://mycolor.space/)
+### Colour 
+Red color chosen to math reset game button and highlight the high score. Maroon color chosen for buttons and footer navigation. Color palette gradient was chosen for main game bakcground and quiz progress bar. To narrow down the colours I used Adobe Color. 
+<br>
+![Colour scheme](docs/features/colors.png)
