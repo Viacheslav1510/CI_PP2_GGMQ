@@ -160,3 +160,17 @@ input[type=number] {
                   #d0b0bc, #e8bcb4, #ebd0ac, #d7e9b9);
   border-radius: 10px;
 }
+
+.score p{
+    background-image: linear-gradient(to left top, #b0a8b9, #d0b0bc, #e8bcb4, #ebd0ac, #d7e9b9);
+    margin: 20px 0px;
+    font-size: 1.5rem;
+    color: #42032C;
+}
+
+.progress {
+    text-align: center;
+    font-weight: bold;
+    margin: 2% 0%;
+}
+  
