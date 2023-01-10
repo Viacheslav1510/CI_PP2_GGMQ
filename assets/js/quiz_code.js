@@ -9,8 +9,16 @@ let currentScoreQuiz = document.getElementById('cur-score');
 let progressBar = document.getElementById('progress-line');
 let quizGameContainer = document.querySelector('.quiz-game');
 
+shuffleQuestions();
 showQuestion();
 submitBtn.onclick = checkAnswer;
+
+/**
+ * shuffleQuestions function shuffles questions before quiz to make the game more unpredictable.
+ */
+function shuffleQuestions() {
+    shuffledQuestions = quiz.sort(() => Math.random() - 0.5);
+}
 
 /** 
  * showQuestion function gets data from "const quiz" and shows question with questionIndex variable.
