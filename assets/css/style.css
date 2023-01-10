@@ -149,16 +149,16 @@ input[type=number] {
 
 /* Quiz page style */
 .quiz-game {
-  display: inline-table;
-  height: 30vh;
-  width: 40%;
-  position: absolute;
-  left: 30%;
-  top: 20%;
-  border: 2px solid #EAC7C7;
-  background-image: linear-gradient(to right top, #b0a8b9, 
+    display: inline-table;
+    height: 30vh;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    border: 2px solid #EAC7C7;
+    background-image: linear-gradient(to right top, #b0a8b9, 
                   #d0b0bc, #e8bcb4, #ebd0ac, #d7e9b9);
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 .score p{
@@ -173,4 +173,17 @@ input[type=number] {
     font-weight: bold;
     margin: 2% 0%;
 }
-  
+ 
+#question {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.quiz-game li {
+    list-style-type: none;
+    border: 1px solid #EAC7C7;
+    font-size: 1.25rem;
+    padding: 10px;
+}
