@@ -1,12 +1,10 @@
 (Developer: Slava Kondriianenko)
 <hr>
-
-
-
+The website represents three pages with Guess a Number game, Quiz about math and contact form which send an email to site owner.
 
 ![Responsible mockup of the website](docs/am-i-responsive.png)
 
-[Live website]()
+[Live website](https://viacheslav1510.github.io/Portfolio_Project_2-Guess_game-Math_quiz/)
 
 ## Table of Content
 - [Table of Content](#table-of-content)
@@ -16,37 +14,24 @@
 - [User Experience](#user-experience)
   - [Target Audience](#target-audience)
   - [User Requirements and Expectations](#user-requirements-and-expectations)
-  - [User Stories](#user-stories)
-    - [First-time User](#first-time-user)
-    - [Returning User](#returning-user)
-    - [Site Owner](#site-owner)
-- [Design](#design)
-  - [Design Choices](#design-choices)
-  - [Colour](#colour)
-  - [Font](#font)
-  - [Structure](#structure)
-  - [Wireframes](#wireframes)
-- [Technologies Used](#technologies-used)
-  - [Languages](#languages)
-  - [Frameworks \& Tools](#frameworks--tools)
-- [Features](#features)
-  - [Header](#header)
-  - [Tours section](#tours-section)
-  - [Contacts section and footer section](#contacts-section-and-footer-section)
-  - [Shop page main section](#shop-page-main-section)
-  - [Shop page google map section](#shop-page-google-map-section)
-  - [Page 404](#page-404)
-- [Validation](#validation)
-  - [HTML Validation](#html-validation)
-  - [CSS Validation](#css-validation)
-  - [Accessibility](#accessibility)
-  - [Performance](#performance)
-    - [Desktop](#desktop)
-    - [Mobile](#mobile)
-  - [Browser compatibility](#browser-compatibility)
-  - [Testing user stories](#testing-user-stories)
-- [Bugs](#bugs)
-- [Credits](#credits)
-  - [Code](#code)
-  - [Media](#media)
-- [Acknowledgements](#acknowledgements)
+
+## Project Goals
+### User Goals
+- Have fun playing the Guess a Number game
+- Pass the math test and get the highest possible score
+- Contact developer to suggest an idea or get feedback
+### Site Owner Goals
+- Entertain the website user
+- Find an interested client for further site development
+- Allow the user to contact the developer
+
+## User Experience
+### Target Audience
+- People who want to have fun
+- Developers who want to get an idea for their projects
+- Customers who want to find a developer for their product
+### User Requirements and Expectations
+- Great interactive content that will make the customer think about hire developer
+- Intuitive navigation which will help you navigate the site easily
+- A pleasant design that will make the user stay on the site
+- An easy way to contact the site owner
