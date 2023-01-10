@@ -305,3 +305,69 @@ textarea {
       margin-top: 5%;
     }
 }
+
+@media screen and (max-width: 420px) {
+    /* guess media */
+    .game-container {
+      position: relative;
+      margin-top: 15%;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+  
+    /* quiz media */
+    .quiz-game {
+      position: relative;
+      margin-top: 4%;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+  
+    #question {
+      font-size: 2rem;
+    }
+  
+    .quiz-game li {
+      font-size: 1.5rem;
+    }
+   
+    .submit-btn {
+      font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* guess media */
+    .game-container {
+      position: relative;
+      width: 100%;
+      margin-top: 5%;
+      top: 0;
+      left: 0;
+    }
+  
+    #image {
+      height: 250px
+    }  
+    /* quiz media */
+    .quiz-game {
+      position: relative;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+  
+    #question {
+      font-size: 1.5rem;
+    }
+  
+    .quiz-game li {
+      font-size: 1.2rem;
+    }
+   
+    .submit-btn {
+      font-size: 15px;
+    }
+}
