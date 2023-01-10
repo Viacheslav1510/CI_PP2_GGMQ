@@ -187,3 +187,42 @@ input[type=number] {
     font-size: 1.25rem;
     padding: 10px;
 }
+
+#progress-bar {
+    width: 100%;
+    height: 30px;
+    border: 2px solid #42032C;
+}
+  
+#progress-line {
+    color: #42032C;
+    height: 28px;
+    width: 0%;
+    background-image: linear-gradient(to right top, #b0a8b9, 
+                    #d0b0bc, #e8bcb4, #ebd0ac, #d7e9b9);
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 4px;
+}
+
+.submit-btn {
+    background-image: -webkit-linear-gradient(top, #170055, #480032);
+    background-image: -moz-linear-gradient(top, #170055, #480032);
+    background-image: -ms-linear-gradient(top, #170055, #480032);
+    background-image: -o-linear-gradient(top, #170055, #480032);
+    background-image: linear-gradient(to bottom, #170055, #480032);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #171d21 2px;
+    text-decoration: none;
+}
+  
+.submit-btn:hover {
+    background: #144d38;
+    text-decoration: none;
+}
