@@ -1,230 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Roboto:wght@700&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
   
 body {
-    background-image: url('../images/bg.jpg');
-    background-repeat: no-repeat;
-    height: 100vh;
+  background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 /* container for guess game and contact form */
 .game-container {
-    font-size: 1.5rem;
-    display: inline-table;
-    text-align: center;
-    height: 30vh;
-    width: 40%;
-    position: absolute;
-    left: 30%;
-    top: 10%;
-    border: 2px solid #EAC7C7;
-    background-image: linear-gradient(to right top, #b0a8b9, #d0b0bc,
+  font-size: 1.5rem;
+  display: inline-table;
+  text-align: center;
+  height: 30vh;
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  border: 2px solid #EAC7C7;
+  background-image: linear-gradient(to right top, #b0a8b9, #d0b0bc,
                        #e8bcb4, #ebd0ac, #d7e9b9);
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 /* guess number game top */
 .top {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1%;
-  }
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1%;
+}
   
 .top p {
-    background-color: #CD0404;
-    border-radius: 8px;
-    color: #fff;
-    text-align: center;
-    margin-left: 20px;
-    padding: 8px;
-    font-size: 1.1rem;
-    font-weight: bold;
+  background-color: #CD0404;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  margin-left: 20px;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 
 #reset {
-    font-size: 1.5rem;
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 15px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 1rem;
-    background: #CD0404;
-    border: solid #171d21 2px;
-    text-decoration: none;
+  font-size: 1.5rem;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1rem;
+  background: #CD0404;
+  border: solid #171d21 2px;
+  text-decoration: none;
 }
   
 #reset:hover {
-    background: #1A0000;
-    text-decoration: none;
+  background: #1A0000;
+  text-decoration: none;
 }
 
 /* guess number main container */
 #message {
-    text-align: center;
-    color: #170055;
-    font-size: 1.8rem;
-    font-weight: bold;
+  text-align: center;
+  color: #170055;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
   
 #image {
-    width: 100%;
-    height: 380px;
+  width: 100%;
+  height: 380px;
 }
   
 .game-container p, button {
-    margin: 1% 2%;
+  margin: 1% 2%;
 }
   
 .guess {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 input[type=number] {
-    text-align: center;
-    font-size: 1.5rem;
-    width: 10%;
-    padding: 3px 5px;
-    margin: 8px 0;
-    box-sizing: border-box;
-      border-radius: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 10%;
+  padding: 3px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
 #check {
-    background-image: -webkit-linear-gradient(top, #170055, #480032);
-    background-image: -moz-linear-gradient(top, #170055, #480032);
-    background-image: -ms-linear-gradient(top, #170055, #480032);
-    background-image: -o-linear-gradient(top, #170055, #480032);
-    background-image: linear-gradient(to bottom, #170055, #480032);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
+  background-image: -webkit-linear-gradient(top, #170055, #480032);
+  background-image: -moz-linear-gradient(top, #170055, #480032);
+  background-image: -ms-linear-gradient(top, #170055, #480032);
+  background-image: -o-linear-gradient(top, #170055, #480032);
+  background-image: linear-gradient(to bottom, #170055, #480032);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
   
 #check:hover {
-    background: #007965;
-    text-decoration: none;
+  background: #007965;
+  text-decoration: none;
 }
 
 .guess-score {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* footer */
 #footer {
-    position:fixed;
-    width: 100%;
-    bottom: 0px;
-    padding: 2%;
-    text-align: center;
-    background-color: white;
-    margin-top: auto;
+  position:fixed;
+  width: 100%;
+  bottom: 0px;
+  padding: 2%;
+  text-align: center;
+  background-color: white;
+  margin-top: auto;
 }
 
 .footer-icon {
-    padding: 0 4% 1% 0;
-    color: #42032C;
+  padding: 0 4% 1% 0;
+  color: #42032C;
 }
   
 .footer-icon:hover {
-    font-size: 3em;
-    font-size: 2.5em;
+  font-size: 3em;
+  font-size: 2.5em;
 }
   
 #footer p {
-    padding-top: 30px;
-    padding-right: 4%;
-    font-size: 1.25em;
+  padding-top: 30px;
+  padding-right: 4%;
+  font-size: 1.25em;
 }
 
 /* Quiz page style */
 .quiz-game {
-    display: inline-table;
-    height: 30vh;
-    width: 40%;
-    position: absolute;
-    left: 30%;
-    top: 20%;
-    border: 2px solid #EAC7C7;
-    background-image: linear-gradient(to right top, #b0a8b9, 
+  display: inline-table;
+  height: 30vh;
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  border: 2px solid #EAC7C7;
+  background-image: linear-gradient(to right top, #b0a8b9, 
                   #d0b0bc, #e8bcb4, #ebd0ac, #d7e9b9);
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .score p{
-    background-image: linear-gradient(to left top, #b0a8b9, #d0b0bc, #e8bcb4, #ebd0ac, #d7e9b9);
-    margin: 20px 0px;
-    font-size: 1.5rem;
-    color: #42032C;
+  background-image: linear-gradient(to left top, #b0a8b9, #d0b0bc, #e8bcb4, #ebd0ac, #d7e9b9);
+  margin: 20px 0px;
+  font-size: 1.5rem;
+  color: #42032C;
 }
 
 .progress {
-    text-align: center;
-    font-weight: bold;
-    margin: 2% 0%;
+  text-align: center;
+  font-weight: bold;
+  margin: 2% 0%;
 }
  
 #question {
-    padding: 20px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5rem;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .quiz-game li {
-    list-style-type: none;
-    border: 1px solid #EAC7C7;
-    font-size: 1.25rem;
-    padding: 10px;
+  list-style-type: none;
+  border: 1px solid #EAC7C7;
+  font-size: 1.25rem;
+  padding: 10px;
 }
 
 #progress-bar {
-    width: 100%;
-    height: 30px;
-    border: 2px solid #42032C;
+  width: 100%;
+  height: 30px;
+  border: 2px solid #42032C;
 }
   
 #progress-line {
-    color: #42032C;
-    height: 28px;
-    width: 0%;
-    background-image: linear-gradient(to right top, #b0a8b9, 
+  color: #42032C;
+  height: 28px;
+  width: 0%;
+  background-image: linear-gradient(to right top, #b0a8b9, 
                     #d0b0bc, #e8bcb4, #ebd0ac, #d7e9b9);
-    display: flex;
-    flex-direction: row-reverse;
-    padding-top: 4px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 4px;
 }
 
 .submit-btn {
-    background-image: -webkit-linear-gradient(top, #170055, #480032);
-    background-image: -moz-linear-gradient(top, #170055, #480032);
-    background-image: -ms-linear-gradient(top, #170055, #480032);
-    background-image: -o-linear-gradient(top, #170055, #480032);
-    background-image: linear-gradient(to bottom, #170055, #480032);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    border: solid #171d21 2px;
-    text-decoration: none;
+  background-image: -webkit-linear-gradient(top, #170055, #480032);
+  background-image: -moz-linear-gradient(top, #170055, #480032);
+  background-image: -ms-linear-gradient(top, #170055, #480032);
+  background-image: -o-linear-gradient(top, #170055, #480032);
+  background-image: linear-gradient(to bottom, #170055, #480032);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #171d21 2px;
+  text-decoration: none;
 }
   
 .submit-btn:hover {
-    background: #144d38;
-    text-decoration: none;
+  background: #144d38;
+  text-decoration: none;
 }
 
 /* Contact page style */
