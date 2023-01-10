@@ -10,7 +10,7 @@ let progressBar = document.getElementById('progress-line');
 let quizGameContainer = document.querySelector('.quiz-game');
 
 showQuestion();
-
+submitBtn.onclick = checkAnswer;
 
 /** 
  * showQuestion function gets data from "const quiz" and shows question with questionIndex variable.
@@ -58,9 +58,9 @@ function checkAnswer() {
         questionIndex++;
         showQuestion();
     } else {
-        clearHtml()
+        clearHtml();
+        showResult();
     }
-
 }
 
 /**
@@ -69,4 +69,29 @@ function checkAnswer() {
 function clearHtml() {
     document.getElementById('question').innerHTML = '';
     document.getElementById('answer').innerHTML = '';
+}
+
+/**
+ * showResult function gets score value and shows message relatively to it's score.
+ */
+function showResult() {
+    let resultMessage;
+
+    if (score === 10) {
+        resultMessage = "AMAZING! You're computer GURU."
+    } else if (score < 5) {
+        resultMessage = "I know you can better"
+    } else {
+        resultMessage = "Wow, it's good! Could you beat your result?"
+    }
+
+    let resultContent = `
+            <h2> Finish! You scored ${score}/10</h2>
+            <p>${resultMessage}</p>
+    `
+
+    quizGameContainer.style.textAlign = "center"
+    questionContainer.innerHTML = resultContent;
+    submitBtn.textContent = "Play Again";
+    submitBtn.onclick = () => history.go();
 }
