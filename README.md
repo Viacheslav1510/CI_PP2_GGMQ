@@ -45,6 +45,8 @@ The website represents three pages with Guess a Number game, Quiz about math and
   - [JavaScript Validation](#javascript-validation)
   - [Accessibility](#accessibility)
   - [Performance](#performance)
+  - [Browser compatibility](#browser-compatibility)
+- [Testing user stories](#testing-user-stories)
 
 ## Project Goals
 ### User Goals
@@ -74,18 +76,19 @@ The website represents three pages with Guess a Number game, Quiz about math and
 3. I want program to memorize my high score
 4. I want play game as many times as i want
 5. As a first time user I want to navigate easily between pages
-6. I want to pass quiz and get the highest possible score
-7. As a first time user I want to see quiz progress
-8. I want to contact the website owner
+6. I want to try another game
+7. I want to pass quiz and get the highest possible score
+8. As a first time user I want to see quiz progress
+9. I want to contact the website owner
 #### Returning User
-9. As a a returning user I want to play game again
-10. As a a returning user I want to make my best on quiz
-11. I want to contact site owner and get feedback
-12. As a a returning user I want to find developer on social media
+10. As a a returning user I want to play game again
+11. As a a returning user I want to make my best on quiz
+12. I want to contact site owner and get feedback
+13. As a a returning user I want to find developer on social media
 #### Site Owner
-13. As the site owner I want users to easy find what this website about
-14. As the site owner I want to interest the user in my games
-15. As the site owner I want users to contact me easily
+14. As the site owner I want users to easy find what this website about
+15. As the site owner I want to interest the user in my games
+16. As the site owner I want users to contact me easily
 
 ## Design
 ### Design Choices
@@ -152,7 +155,7 @@ The website has 3 webpages
   guess in numbers  
   - The user can refresh the game with refresh button
   - The user can see attempts left, current score and highest score labels
-  - User stories covered: 1, 9, 13.
+  - User stories covered: 1, 10, 14.
 <details><summary>See feature</summary>
 <img src="docs/features/guess-loaded.png">
 </details>
@@ -162,7 +165,7 @@ The website has 3 webpages
   - With each input program decreases attempts left and current score
   - Program memorize highest score and shows it in "Highest score" label
   - User can reset the game and start to beat their score.
-  - User stories covered: 2, 3, 4, 9
+  - User stories covered: 2, 3, 4, 10
 <details><summary>See feature</summary>
 <img src="docs/features/guess-started1.png">
 <img src="docs/features/guess-started2.png">
@@ -174,7 +177,7 @@ The website has 3 webpages
   - User can choose answer radio button submit it with "Answer" button
   - Webpage shows current score on the top of the page
   - Progress bar under current score is clear before first answer
-  - User stories covered: 6
+  - User stories covered: 7
 <details><summary>See feature</summary>
 <img src="docs/features/quiz-loaded.png">
 </details>
@@ -183,7 +186,7 @@ The website has 3 webpages
   - Main quiz container shows another questions
   - Progress bar start fill up
   - Current score changes when answer is right
-  - User stories covered: 7
+  - User stories covered: 8
 <details><summary>See feature</summary>
 <img src="docs/features/started-quiz.png">
 </details>  
@@ -192,7 +195,7 @@ The website has 3 webpages
   - User can see their finish score
   - User receives message about their progress and have oportunity to pass quiz again with "Play Again" button
   - Progress bar is filled up to 100%
-  - User stories covered: 6, 10
+  - User stories covered: 7, 11
 <details><summary>See feature</summary>
 <img src="docs/features/finished-quiz.png">
 </details>
@@ -203,7 +206,7 @@ The website has 3 webpages
   - All inputs have to be filled up
   - Message button submit user inputs
   - Site owner receives user meassage on his email
-  - User stories covered: 8, 15
+  - User stories covered: 9, 16
 <details><summary>See feature</summary>
 <img src="docs/features/contact-loaded.png">
 </details>
@@ -211,7 +214,7 @@ The website has 3 webpages
 #### Submitted message
   - When user send message they receive status notification
   - If submit successful user see "Thank You" gif and have opportunity to send another message
-  - User stories covered: 11
+  - User stories covered: 12
 <details><summary>See feature</summary>
 <img src="docs/features/contact-submitted.png">
 </details>
@@ -219,7 +222,7 @@ The website has 3 webpages
 ### Footer
   - Footer links help user to navigate through website
   - Every page has Linkedin social media link and another two links are different
-  - User stories covered: 5, 12
+  - User stories covered: 5, 13
 <details><summary>Guess footer</summary>
 <img src="docs/features/guess-footer.png">
 </details>
@@ -298,3 +301,150 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
   - <details><summary>Mobile</summary>
     <img src="docs/validation/performance/contact-performance-mobile.png" alt="Performance">
     </details>
+
+### Browser compatibility
+The website was tested on the following browsers:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Egde
+- Safari
+
+## Testing user stories
+1. As a first time user I want to understant what this site about
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Guess a Number game page| Open Webpage | User can see main message what to do next to play| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story1.png">
+</details>
+
+2. As a first time user I want to play interactive game
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Guess a Number game page | Enter number in input field | User can see their input| Works as expected |
+| Guess a Number game page | Click "Guess" button or press "Enter" | User can see message about their guess| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story2-1.png">
+<img src="docs/user-story-testing/story2-2.png">
+</details>
+
+3. I want program to memorize my high score
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Guess a Number game page | Play all game | User can see their high score| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story3.png">
+</details>
+
+4. I want play game as many times as i want
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Guess a Number game page | Click reset button | User can try to guess another number| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story4.png">
+</details>
+
+5. As a first time user I want to navigate easily between pages
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Click any link | User can navigate between pages| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story5-1.png">
+<img src="docs/user-story-testing/story5-2.png">
+</details>
+
+6. I want to try another game
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Click quiz link | User can see quiz page| Works as expected |
+| Quiz game | Chose answer option and click "Answer" button | User can pass 10 questions quiz | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story6-1.png">
+<img src="docs/user-story-testing/story6-2.png">
+<img src="docs/user-story-testing/story6-3.png">
+</details>
+
+7. I want to pass quiz and get the highest possible score
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Quiz game | Pass the quiz | User can see their score and message| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story7.png">
+</details>
+
+8. As a first time user I want to see quiz progress
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Quiz game | Anwer the question | User can see progress bar in %| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story8.png">
+</details>
+
+9. I want to contact the website owner
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Click envelope icon | User can see contact form| Works as expected |
+| Contact page | Fill out the from and click  | User can see contact form| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story9-1.png">
+<img src="docs/user-story-testing/story9-2.png">
+</details>
+
+10. As a a returning user I want to play game again
+    
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Guess a Number game page| Open Webpage and play game | User can see main message what to do next to play| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story10.png">
+</details>
+
+11. As a a returning user I want to make my best on quiz
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Quiz game | Pass the quiz | User can see their score and message| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story11.png">
+</details>
+
+12. I want to contact site owner and get feedback
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact page| Send message | User can see their feedback and contact form send message on site owner email| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story12.png">
+</details>
+
+13. As a a returning user I want to find developer on social media
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer| Click LinkedIn link| User can site owner LinkedIn page| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story13-1.png">
+<img src="docs/user-story-testing/story13-2.png">
+</details>
