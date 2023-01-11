@@ -43,6 +43,7 @@ The website represents three pages with Guess a Number game, Quiz about math and
   - [HTML Validation](#html-validation)
   - [CSS Validation](#css-validation)
   - [JavaScript Validation](#javascript-validation)
+  - [Accessibility](#accessibility)
 
 ## Project Goals
 ### User Goals
@@ -250,13 +251,19 @@ Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/c
 </details>
 
 ### JavaScript Validation
-JSHint JS Validation Service was used to validate the Javascript files. Passed with no errors.
+[JSHint](https://jshint.com/) JS Validation Service was used to validate the Javascript files. Passed with no errors.
 <details><summary>guess.js</summary>
-<img src="docs/validation/js/game-js.png" alt="Css Validation">
+<img src="docs/validation/js/game-js.png" alt="Js Validation">
 </details>
 <details><summary>quiz-code.js</summary>
-<img src="docs/validation/js/quiz-js.png" alt="Css Validation">
+<img src="docs/validation/js/quiz-js.png" alt="Js Validation">
 </details>
 <details><summary>contact.js</summary>
-<img src="docs/validation/js/contact-js.png" alt="Css Validation">
+<img src="docs/validation/js/contact-js.png" alt="Js Validation">
+</details>
+
+### Accessibility
+[Wave Validator](https://wave.webaim.org/) web accessibility evaluation tool was used to ensure the website met high accessibility standards.
+<details><summary>Home</summary>
+<img src="docs/validation/accessebility/" alt="Accessebility Validation">
 </details>
