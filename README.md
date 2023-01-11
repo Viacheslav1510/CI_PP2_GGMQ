@@ -35,6 +35,9 @@ The website represents three pages with Guess a Number game, Quiz about math and
     - [Page loaded](#page-loaded-1)
     - [User started quiz](#user-started-quiz)
     - [Quiz finished](#quiz-finished)
+  - [Contact page](#contact-page)
+    - [Page loaded](#page-loaded-2)
+    - [Submitted message](#submitted-message)
 
 ## Project Goals
 ### User Goals
@@ -144,7 +147,7 @@ The website has 3 webpages
   - The user can see attempts left, current score and highest score labels
   - User stories covered: 1, 9, 13.
 <details><summary>See feature</summary>
-<img src="docs/wireframes/guess-loaded.png">
+<img src="docs/features/guess-loaded.png">
 </details>
 
 #### Game started
@@ -154,8 +157,8 @@ The website has 3 webpages
   - User can reset the game and start to beat their score.
   - User stories covered: 2, 3, 4, 9
 <details><summary>See feature</summary>
-<img src="docs/wireframes/guess-started1.png">
-<img src="docs/wireframes/guess-started2.png">
+<img src="docs/features/guess-started1.png">
+<img src="docs/features/guess-started2.png">
 </details>
 
 ### Quiz game
@@ -165,13 +168,43 @@ The website has 3 webpages
   - Webpage shows current score on the top of the page
   - Progress bar under current score is clear before first answer
   - User stories covered: 6
+<details><summary>See feature</summary>
+<img src="docs/features/quiz-loaded.png">
+</details>
+
 #### User started quiz
   - Main quiz container shows another questions
   - Progress bar start fill up
   - Current score changes when answer is right
   - User stories covered: 7
+<details><summary>See feature</summary>
+<img src="docs/features/started-quiz.png">
+</details>  
+
 #### Quiz finished
   - User can see their finish score
   - User receives message about their progress and have oportunity to pass quiz again with "Play Again" button
   - Progress bar is filled up to 100%
   - User stories covered: 6, 10
+<details><summary>See feature</summary>
+<img src="docs/features/finished-quiz.png">
+</details>
+
+### Contact page
+#### Page loaded
+  - When page loaded user can see contact form with name input, email input and message textarea
+  - All inputs have to be filled up
+  - Message button submit user inputs
+  - Site owner receives user meassage on his email
+  - User stories covered: 8, 15
+<details><summary>See feature</summary>
+<img src="docs/features/">
+</details>
+
+#### Submitted message
+  - When user send message they receive status notification
+  - If submit successful user see "Thank You" gif and have opportunity to send another message
+  - User stories covered: 11
+<details><summary>See feature</summary>
+<img src="docs/features/">
+</details>
