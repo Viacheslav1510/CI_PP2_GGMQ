@@ -38,6 +38,7 @@ The website represents three pages with Guess a Number game, Quiz about math and
   - [Contact page](#contact-page)
     - [Page loaded](#page-loaded-2)
     - [Submitted message](#submitted-message)
+  - [Footer](#footer)
 
 ## Project Goals
 ### User Goals
@@ -208,3 +209,17 @@ The website has 3 webpages
 <details><summary>See feature</summary>
 <img src="docs/features/contact-submitted.png">
 </details>
+
+### Footer
+  - Footer links help user to navigate through website
+  - Every page has Linkedin social media link and another two links are different
+  - User stories covered: 5, 12
+<details><summary>Guess footer</summary>
+<img src="docs/features/guess-footer.png">
+</details>
+<details><summary>Quiz footer</summary>
+<img src="docs/features/quiz-footer.png">
+</details>
+<details><summary>Contact footer</summary>
+<img src="docs/features/contact-footer.png">
+</details> 
