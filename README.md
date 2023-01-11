@@ -44,6 +44,7 @@ The website represents three pages with Guess a Number game, Quiz about math and
   - [CSS Validation](#css-validation)
   - [JavaScript Validation](#javascript-validation)
   - [Accessibility](#accessibility)
+  - [Performance](#performance)
 
 ## Project Goals
 ### User Goals
@@ -272,4 +273,16 @@ Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/c
 </details>
 <details><summary>Contact page</summary>
 <img src="docs/validation/accessebility/accessebility-contact.png" alt="Accessebility Validation">
+</details>
+
+### Performance
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+<details><summary>Guess a Number page</summary>
+<img src="docs/validation/performance" alt="Performance">
+</details>
+<details><summary>Quiz page</summary>
+<img src="docs/validation/performance" alt="Performance">
+</details>
+<details><summary>Contact page</summary>
+<img src="docs/validation/performance" alt="Performance">
 </details>
