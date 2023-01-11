@@ -198,7 +198,7 @@ The website has 3 webpages
   - Site owner receives user meassage on his email
   - User stories covered: 8, 15
 <details><summary>See feature</summary>
-<img src="docs/features/">
+<img src="docs/features/contact-loaded.png">
 </details>
 
 #### Submitted message
@@ -206,5 +206,5 @@ The website has 3 webpages
   - If submit successful user see "Thank You" gif and have opportunity to send another message
   - User stories covered: 11
 <details><summary>See feature</summary>
-<img src="docs/features/">
+<img src="docs/features/contact-submitted.png">
 </details>
