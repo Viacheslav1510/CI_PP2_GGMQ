@@ -228,13 +228,15 @@ The website has 3 webpages
 
 ## Validation
 ### HTML Validation
-Tested HTML code with [W3C Validator](https://validator.w3.org/).
+Tested HTML code with [W3C Validator](https://validator.w3.org/). Passed with no errors. 
 <details><summary>Guess page</summary>
-<img src="docs/validation/" alt="HTML Validation">
+<img src="docs/validation/html/guess-html-validation.png" alt="HTML Validation">
 </details>
 <details><summary>Quiz page</summary>
-<img src="docs/validation/" alt="HTML Validation">
+<img src="docs/validation/html/quiz-html-validation.png" alt="HTML Validation">
 </details>
+
+HTML validation for contact page shows two warnings about JavaScript type attribute , but I didn't want to change it because this script was taken from EmailJS documentation.
 <details><summary>Contact page</summary>
-<img src="docs/validation/" alt="HTML Validation">
+<img src="docs/validation/html/contact-html-validation.png" alt="HTML Validation">
 </details>
