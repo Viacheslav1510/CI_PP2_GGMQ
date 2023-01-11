@@ -24,7 +24,7 @@ document.querySelector('.contact-form').addEventListener("submit", function(even
  */
 function submitMessage() {
     let subMessage = `<img src="https://media2.giphy.com/media/P3EbzdvmTIqZofxqug/giphy.gif?cid=ecf05e47q791ipvwgu8nkec3uoukrnqz2i1hpj5e4e85o8oa&rid=giphy.gif&ct=g" 
-    alt="Submited image" width="100%">
+    alt="Submited image" height="450px" width="100%">
     <h3>Thank you!!! Your message so important for us.</h3>
     <button id="send-message" type="submit">One more message</button>
     `;
