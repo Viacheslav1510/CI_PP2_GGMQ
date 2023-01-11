@@ -28,7 +28,7 @@ function showQuestion() {
     questionContainer.innerHTML = quiz[questionIndex].question;
 
     let answer = '';
-    for (key of quiz[questionIndex].answers ) {
+    for (let key of quiz[questionIndex].answers ) {
         answer += `<li>
                       <label>
                         <input data-answer="${key}" type="radio" name="answer" class="answer">
@@ -88,19 +88,19 @@ function showResult() {
     let resultMessage;
 
     if (score === 10) {
-        resultMessage = "AMAZING! You're computer GURU."
+        resultMessage = "AMAZING! You're math GURU.";
     } else if (score < 5) {
-        resultMessage = "I know you can better"
+        resultMessage = "I know you can better";
     } else {
-        resultMessage = "Wow, it's good! Could you beat your result?"
+        resultMessage = "Wow, it's good! Could you beat your result?";
     }
 
     let resultContent = `
             <h2> Finish! You scored ${score}/10</h2>
             <p>${resultMessage}</p>
-    `
+        `;
 
-    quizGameContainer.style.textAlign = "center"
+    quizGameContainer.style.textAlign = "center";
     questionContainer.innerHTML = resultContent;
     submitBtn.textContent = "Play Again";
     submitBtn.onclick = () => history.go();

@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (event.key === "Enter") {
         checkAnswer();
 	  }
-    })
+    });
 });
 
 /**
@@ -47,7 +47,7 @@ function checkAnswer() {
         let guessNumber = parseInt(guessInput.value);
 
         if (guessNumber === number) {
-            message.textContent = `Correct! I was thinking of ${number}.`
+            message.textContent = `Correct! I was thinking of ${number}.`;
             gameImage.src = "https://media1.giphy.com/media/l2Z84eFooeHJu/giphy.gif?cid=ecf05e47xbrf7nt6dqv3jrbf7jgob0tpj65q4kczdcqw8swq&rid=giphy.gif&ct=g";
             highScore = curScore > highScore ? curScore : highScore;
             highestScore.textContent = highScore;
@@ -71,7 +71,7 @@ function checkAnswer() {
     } else {
         message.textContent = "You lost the game.... Try again";
         atemptsLeftElement.textContent = 0;
-        gameImage.src = "https://media2.giphy.com/media/ka6M66Z58QEcXadCd4/giphy.gif?cid=ecf05e47d63eubhh0lfp3ahadp4u93dwwien84bjkmc5m6v6&rid=giphy.gif&ct=g"
+        gameImage.src = "https://media2.giphy.com/media/ka6M66Z58QEcXadCd4/giphy.gif?cid=ecf05e47d63eubhh0lfp3ahadp4u93dwwien84bjkmc5m6v6&rid=giphy.gif&ct=g";
     }
 
     guessInput.value = '';
@@ -83,10 +83,10 @@ function checkAnswer() {
 resetBtn.addEventListener('click', function() {
     number = Math.floor(Math.random()*10) + 1;
     curScore = 4;
-    attemptsLeft = 4
+    attemptsLeft = 4;
     message.textContent = "Guess the number between 1 and 10";
     currentScoreElement.textContent = curScore;
     atemptsLeftElement.textContent = attemptsLeft;
     guessInput.value = '';
     gameImage.src = "https://media4.giphy.com/media/4JVTF9zR9BicshFAb7/giphy.gif?cid=ecf05e472jxro2loryxtf29rkg8aj9kbtmod9qljyyxpfiyd&rid=giphy.gif&ct=g";
-})
+});

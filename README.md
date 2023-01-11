@@ -42,6 +42,7 @@ The website represents three pages with Guess a Number game, Quiz about math and
 - [Validation](#validation)
   - [HTML Validation](#html-validation)
   - [CSS Validation](#css-validation)
+  - [JavaScript Validation](#javascript-validation)
 
 ## Project Goals
 ### User Goals
@@ -247,3 +248,6 @@ Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/c
 <details><summary>All site</summary>
 <img src="docs/validation/css/css-validation.png" alt="Css Validation">
 </details>
+
+### JavaScript Validation
+JSHint JS Validation Service was used to validate the Javascript files.

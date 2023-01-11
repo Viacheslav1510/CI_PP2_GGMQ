@@ -16,7 +16,7 @@ document.querySelector('.contact-form').addEventListener("submit", function(even
         }, (err) => {
             alert("Try again, please.");
         }); 
-})
+});
 
 /**
  * function submitMessage shows message after submit contact form
