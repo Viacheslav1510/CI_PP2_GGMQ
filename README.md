@@ -277,12 +277,24 @@ Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/c
 
 ### Performance
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
-<details><summary>Guess a Number page</summary>
-<img src="docs/validation/performance" alt="Performance">
-</details>
-<details><summary>Quiz page</summary>
-<img src="docs/validation/performance" alt="Performance">
-</details>
-<details><summary>Contact page</summary>
-<img src="docs/validation/performance" alt="Performance">
-</details>
+- Guess a Number page. Performace is not good enough because I'm using external link for main GIF animation instead of video format.
+  - <details><summary>Desktop</summary>
+    <img src="docs/validation/performance/guess-performance-desktop.png" alt="Performance">
+    </details>
+  - <details><summary>Mobile</summary>
+    <img src="docs/validation/performance/guess-performance-mobile.png" alt="Performance">
+    </details>
+- Quiz page
+  - <details><summary>Desktop</summary>
+    <img src="docs/validation/performance/quiz-performance-desktop.png" alt="Performance">
+    </details>
+  - <details><summary>Mobile</summary>
+    <img src="docs/validation/performance/quiz-performance-mobile.png" alt="Performance">
+    </details>
+- Contact page
+  - <details><summary>Desktop</summary>
+    <img src="docs/validation/performance/contact-performance-desktop.png" alt="Performance">
+    </details>
+  - <details><summary>Mobile</summary>
+    <img src="docs/validation/performance/contact-performance-mobile.png" alt="Performance">
+    </details>
