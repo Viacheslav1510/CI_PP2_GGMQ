@@ -27,6 +27,14 @@ The website represents three pages with Guess a Number game, Quiz about math and
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
   - [Frameworks, Libraries \& Tools](#frameworks-libraries--tools)
+- [Features](#features)
+  - [Guess a Number game page](#guess-a-number-game-page)
+    - [Page loaded](#page-loaded)
+    - [Game started](#game-started)
+  - [Quiz game](#quiz-game)
+    - [Page loaded](#page-loaded-1)
+    - [User started quiz](#user-started-quiz)
+    - [Quiz finished](#quiz-finished)
 
 ## Project Goals
 ### User Goals
@@ -124,3 +132,46 @@ The website cosists of three separate pages:
 - [GitHub](https://github.com/) was used as a remote repository to store project code
 - [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools) were used for debugging of the code and check site for responsiveness
 - [WC3 Validator](https://validator.w3.org/), [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/), [JShint](https://jshint.com/), [Wave Validator](https://wave.webaim.org/), [Lighthouse](https://developers.google.com/web/tools/lighthouse/) and [Am I Responsive](http://ami.responsivedesign.is/) were all used to validate the website
+
+## Features
+The website has 3 webpages
+### Guess a Number game page
+#### Page loaded
+  - When the page is loaded you can see title what this game about
+  - The user has input field and guess button to play. User is asked to enter their
+  guess in numbers  
+  - The user can refresh the game with refresh button
+  - The user can see attempts left, current score and highest score labels
+  - User stories covered: 1, 9, 13.
+<details><summary>See feature</summary>
+<img src="docs/wireframes/guess-loaded.png">
+</details>
+
+#### Game started
+  - Depends to user input program checks is it copares to guess number and changes title GIF and message.
+  - With each input program decreases attempts left and current score
+  - Program memorize highest score and shows it in "Highest score" label
+  - User can reset the game and start to beat their score.
+  - User stories covered: 2, 3, 4, 9
+<details><summary>See feature</summary>
+<img src="docs/wireframes/guess-started1.png">
+<img src="docs/wireframes/guess-started2.png">
+</details>
+
+### Quiz game
+#### Page loaded
+  - Main quiz container shows random answer and four answer options
+  - User can choose answer radio button submit it with "Answer" button
+  - Webpage shows current score on the top of the page
+  - Progress bar under current score is clear before first answer
+  - User stories covered: 6
+#### User started quiz
+  - Main quiz container shows another questions
+  - Progress bar start fill up
+  - Current score changes when answer is right
+  - User stories covered: 7
+#### Quiz finished
+  - User can see their finish score
+  - User receives message about their progress and have oportunity to pass quiz again with "Play Again" button
+  - Progress bar is filled up to 100%
+  - User stories covered: 6, 10
