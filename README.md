@@ -250,4 +250,13 @@ Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/c
 </details>
 
 ### JavaScript Validation
-JSHint JS Validation Service was used to validate the Javascript files.
+JSHint JS Validation Service was used to validate the Javascript files. Passed with no errors.
+<details><summary>guess.js</summary>
+<img src="docs/validation/js/game-js.png" alt="Css Validation">
+</details>
+<details><summary>quiz-code.js</summary>
+<img src="docs/validation/js/quiz-js.png" alt="Css Validation">
+</details>
+<details><summary>contact.js</summary>
+<img src="docs/validation/js/contact-js.png" alt="Css Validation">
+</details>
