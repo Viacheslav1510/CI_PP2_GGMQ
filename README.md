@@ -264,6 +264,12 @@ Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/c
 
 ### Accessibility
 [Wave Validator](https://wave.webaim.org/) web accessibility evaluation tool was used to ensure the website met high accessibility standards.
-<details><summary>Home</summary>
-<img src="docs/validation/accessebility/" alt="Accessebility Validation">
+<details><summary>Guess a Number page</summary>
+<img src="docs/validation/accessebility/accessebility-guess.png" alt="Accessebility Validation">
+</details>
+<details><summary>Quiz page</summary>
+<img src="docs/validation/accessebility/accessebility-quiz.png" alt="Accessebility Validation">
+</details>
+<details><summary>Contact page</summary>
+<img src="docs/validation/accessebility/accessebility-contact.png" alt="Accessebility Validation">
 </details>
