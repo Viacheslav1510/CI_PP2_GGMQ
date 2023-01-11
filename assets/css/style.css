@@ -88,6 +88,10 @@ body {
   justify-content: center;
 }
 
+.guess label {
+  display: none;
+}
+
 input[type=number] {
   text-align: center;
   font-size: 1.5rem;
