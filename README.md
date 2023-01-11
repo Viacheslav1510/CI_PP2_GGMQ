@@ -39,6 +39,8 @@ The website represents three pages with Guess a Number game, Quiz about math and
     - [Page loaded](#page-loaded-2)
     - [Submitted message](#submitted-message)
   - [Footer](#footer)
+- [Validation](#validation)
+  - [HTML Validation](#html-validation)
 
 ## Project Goals
 ### User Goals
@@ -222,4 +224,17 @@ The website has 3 webpages
 </details>
 <details><summary>Contact footer</summary>
 <img src="docs/features/contact-footer.png">
-</details> 
+</details>
+
+## Validation
+### HTML Validation
+Tested HTML code with [W3C Validator](https://validator.w3.org/).
+<details><summary>Guess page</summary>
+<img src="docs/validation/" alt="HTML Validation">
+</details>
+<details><summary>Quiz page</summary>
+<img src="docs/validation/" alt="HTML Validation">
+</details>
+<details><summary>Contact page</summary>
+<img src="docs/validation/" alt="HTML Validation">
+</details>
