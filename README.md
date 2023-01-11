@@ -41,6 +41,7 @@ The website represents three pages with Guess a Number game, Quiz about math and
   - [Footer](#footer)
 - [Validation](#validation)
   - [HTML Validation](#html-validation)
+  - [CSS Validation](#css-validation)
 
 ## Project Goals
 ### User Goals
@@ -239,4 +240,10 @@ Tested HTML code with [W3C Validator](https://validator.w3.org/). Passed with no
 HTML validation for contact page shows two warnings about JavaScript type attribute , but I didn't want to change it because this script was taken from EmailJS documentation.
 <details><summary>Contact page</summary>
 <img src="docs/validation/html/contact-html-validation.png" alt="HTML Validation">
+</details>
+
+### CSS Validation
+Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/). Passed with no errors.
+<details><summary>All site</summary>
+<img src="docs/validation/css/css-validation.png" alt="Css Validation">
 </details>
