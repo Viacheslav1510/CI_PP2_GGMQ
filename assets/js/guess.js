@@ -48,22 +48,22 @@ function checkAnswer() {
 
         if (guessNumber === number) {
             message.textContent = `Correct! I was thinking of ${number}.`;
-            gameImage.src = "https://media1.giphy.com/media/l2Z84eFooeHJu/giphy.gif?cid=ecf05e47xbrf7nt6dqv3jrbf7jgob0tpj65q4kczdcqw8swq&rid=giphy.gif&ct=g";
+            gameImage.src = "assets/images/guess-right.webp";
             highScore = curScore > highScore ? curScore : highScore;
             highestScore.textContent = highScore;
         } else if (guessNumber === 0 || guessNumber > 10) {
             message.textContent = "Please enter the number from 1 to 10";
-            gameImage.src = "https://media3.giphy.com/media/9QrNWBKvBpCw0/giphy.gif?cid=ecf05e4762wdt2o99qe09niyixcqx8i48v9pbv7hdyy40xrg&rid=giphy.gif&ct=g";
+            gameImage.src = "assets/images/guess-please.webp";
             curScore--;
             currentScoreElement.textContent = curScore;
         } else if (guessNumber > number) {
             message.textContent = `Number ${guessNumber} is too high.`;
-            gameImage.src = "https://media3.giphy.com/media/0PRjgsFnJIQHlscMip/giphy.gif?cid=ecf05e4705bn3vm3tqkduw6gij0g4ega66vy4431tgpweell&rid=giphy.gif&ct=g";
+            gameImage.src = "assets/images/guess-high.webp";
             curScore--;
             currentScoreElement.textContent = curScore;
         } else {
             message.textContent = `Number ${guessNumber} is too low.`;
-            gameImage.src = "https://media3.giphy.com/media/8AlXqy1CZrixGd8OvJ/giphy.gif?cid=ecf05e47z1pxgikm16avzx9dy9v34rzfkfaingrebj7jy5tc&rid=giphy.gif&ct=g";
+            gameImage.src = "assets/images/guess-low.webp";
             curScore--;
             currentScoreElement.textContent = curScore;
         }
@@ -71,7 +71,7 @@ function checkAnswer() {
     } else {
         message.textContent = "You lost the game.... Try again";
         atemptsLeftElement.textContent = 0;
-        gameImage.src = "https://media2.giphy.com/media/ka6M66Z58QEcXadCd4/giphy.gif?cid=ecf05e47d63eubhh0lfp3ahadp4u93dwwien84bjkmc5m6v6&rid=giphy.gif&ct=g";
+        gameImage.src = "assets/images/guess-lose.webp";
     }
 
     guessInput.value = '';
@@ -88,5 +88,5 @@ resetBtn.addEventListener('click', function() {
     currentScoreElement.textContent = curScore;
     atemptsLeftElement.textContent = attemptsLeft;
     guessInput.value = '';
-    gameImage.src = "https://media4.giphy.com/media/4JVTF9zR9BicshFAb7/giphy.gif?cid=ecf05e472jxro2loryxtf29rkg8aj9kbtmod9qljyyxpfiyd&rid=giphy.gif&ct=g";
+    gameImage.src = "assets/images/guess-start.webp";
 });

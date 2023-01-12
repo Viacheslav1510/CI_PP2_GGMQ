@@ -4,7 +4,7 @@ The website represents three pages with Guess a Number game, Quiz about math and
 
 ![Responsible mockup of the website](docs/am-i-responsive.png)
 
-[Live website](https://viacheslav1510.github.io/Portfolio_Project_2-Guess_game-Math_quiz/)
+[Live website](https://viacheslav1510.github.io/CI_PP2_GGMQ/)
 
 ## Table of Content
 - [Table of Content](#table-of-content)
