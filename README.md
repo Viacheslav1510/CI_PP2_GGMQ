@@ -39,6 +39,7 @@ The website represents three pages with Guess a Number game, Quiz about math and
     - [Page loaded](#page-loaded-2)
     - [Submitted message](#submitted-message)
   - [Footer](#footer)
+  - [404 error page](#404-error-page)
 - [Validation](#validation)
   - [HTML Validation](#html-validation)
   - [CSS Validation](#css-validation)
@@ -236,6 +237,14 @@ The website has 3 webpages
 </details>
 <details><summary>Contact footer</summary>
 <img src="docs/features/contact-footer.png">
+</details>
+
+### 404 error page
+ - The site has been given a 404 error page which is displayed if the user enters a url that does not exist.
+ - Contains "Go Back" button to return user on main page
+ - Contains footer with all website links
+<details><summary>See feature</summary>
+<img src="docs/features/404.png">
 </details>
 
 ## Validation
