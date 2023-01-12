@@ -47,6 +47,11 @@ The website represents three pages with Guess a Number game, Quiz about math and
   - [Performance](#performance)
   - [Browser compatibility](#browser-compatibility)
 - [Testing user stories](#testing-user-stories)
+- [Bugs](#bugs)
+- [Credits](#credits)
+  - [Code](#code)
+  - [Media](#media)
+- [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 ### User Goals
@@ -448,3 +453,29 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/story13-1.png">
 <img src="docs/user-story-testing/story13-2.png">
 </details>
+
+## Bugs
+
+| **Bug**       | **Fix**        |
+| --------------| ---------------|
+| User can guess number after game finished  |Leave it on the next projects|
+| Low performance | Use video instead of external links  |
+| Low SEO | Add meta description and meta keywords to increase it  |
+
+## Credits
+### Code
+- The main part of the code was taken from the course [Diploma in Software Development, Code Institute](https://learn.codeinstitute.net/courses/).
+- The quiz data was taken from [Open Trivia Database](https://opentdb.com/) documentation.
+- In order for the contact form to send a message to the website owner email code was taken from [EmailJS](https://www.emailjs.com/) documentation.
+- [Button generator](https://css3buttongenerator.com/) was taken to generate buttons style.
+
+### Media
+- GIFs for Guess a Number game were taken from [GIPHY - Be Animated](https://giphy.com/)
+- [ColorSpace](mycolor.space) - used to make background palette for main containers
+- [Walpapers Platform](https://wallpaperset.com/) was used for background image
+- The creation of the [404 page](https://viacheslav1510.github.io/Portfolio_Project_1-Explore_Ukraine/Pulp%20Fiction) was inspired by Pulp Fiction movie.
+
+## Acknowledgements
+- I would like to thank [Code Institute](https://codeinstitute.net/ie/) for great course contents to help me build this website.
+- Thanks my mentor Mohammad Shami for his support, great feedback and inspiration.
+- Thanks my relatives for for giving me time for the project.
