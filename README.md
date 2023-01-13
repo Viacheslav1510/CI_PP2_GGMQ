@@ -304,6 +304,8 @@ Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/c
 <img src="docs/validation/js/contact-js.png" alt="Js Validation">
 </details>
 
+- JSHint found undefined variable "emailjs" in contact.js file. This variable appointed in the contact.html due to specified in the [EmailJS](https://www.emailjs.com/docs/sdk/installation/) documentation
+
 ### Performance
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
 - Guess a Number page
