@@ -43,8 +43,9 @@ The website represents three pages with Guess a Number game, Quiz about math and
 - [Validation](#validation)
   - [HTML Validation](#html-validation)
   - [CSS Validation](#css-validation)
-  - [JavaScript Validation](#javascript-validation)
   - [Accessibility](#accessibility)
+    - [Alerts](#alerts)
+  - [JavaScript Validation](#javascript-validation)
   - [Performance](#performance)
   - [Browser compatibility](#browser-compatibility)
 - [Testing user stories](#testing-user-stories)
@@ -249,24 +250,43 @@ The website has 3 webpages
 
 ## Validation
 ### HTML Validation
-Tested HTML code with [W3C Validator](https://validator.w3.org/). Passed with no errors. 
-<details><summary>Guess page</summary>
-<img src="docs/validation/html/guess-html-validation.png" alt="HTML Validation">
-</details>
-<details><summary>Quiz page</summary>
-<img src="docs/validation/html/quiz-html-validation.png" alt="HTML Validation">
-</details>
+Tested HTML code with [W3C Validator](https://validator.w3.org/). 
+- index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGMQ%2F) - No Errors Found
 
-HTML validation for contact page shows two warnings about JavaScript type attribute , but I didn't want to change it because this script was taken from EmailJS documentation.
-<details><summary>Contact page</summary>
-<img src="docs/validation/html/contact-html-validation.png" alt="HTML Validation">
-</details>
+  - 1 info displayed
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Warning | `<link rel="stylesheet" href="assets/css/style.css"/>` | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | HTML does not require the slash but I prefer put closing tag for better reading code|
+
+- quiz.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGMQ%2Fquiz.html) - No Errors Found
+  - 1 info displayed
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Warning | `<link rel="stylesheet" href="assets/css/style.css"/>` | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | HTML does not require the slash but I prefer put closing tag for better reading code|
+
+- contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGMQ%2Fcontact.html) - No Errors Found
+  - 2 Warning displayed
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Warning | `<script type="text/javascript"↩` | The type attribute is unnecessary for JavaScript resources. | Script was taken from JSHint documentation, so I didn't changed it|
 
 ### CSS Validation
 Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/). Passed with no errors.
-<details><summary>All site</summary>
-<img src="docs/validation/css/css-validation.png" alt="Css Validation">
-</details>
+- Website [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGMQ%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - No Errors Found
+
+### Accessibility
+[Wave Validator](https://wave.webaim.org/) web accessibility evaluation tool was used to ensure the website met high accessibility standards.
+- index.html [results](https://wave.webaim.org/report#/https://viacheslav1510.github.io/CI_PP2_GGMQ/index.html)
+- quiz.html [results](https://wave.webaim.org/report#/https://viacheslav1510.github.io/CI_PP2_GGMQ/quiz.html)
+- contact.html [results](https://wave.webaim.org/report#/https://viacheslav1510.github.io/CI_PP2_GGMQ/contact.html)
+
+#### Alerts
+- All the pages have An Alert "No heading structure", that means The page has no headings. I didn't put headings in file, because there is no any content for it.
+- quiz.html has An Alert "Missing fieldset", that means a group of radio buttons is not enclosed in a fieldset. All radio button elements within a list have the same name value of "answer" so I left it without changes.
+
 
 ### JavaScript Validation
 [JSHint](https://jshint.com/) JS Validation Service was used to validate the Javascript files. Passed with no errors.
@@ -278,18 +298,6 @@ Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/c
 </details>
 <details><summary>contact.js</summary>
 <img src="docs/validation/js/contact-js.png" alt="Js Validation">
-</details>
-
-### Accessibility
-[Wave Validator](https://wave.webaim.org/) web accessibility evaluation tool was used to ensure the website met high accessibility standards.
-<details><summary>Guess a Number page</summary>
-<img src="docs/validation/accessebility/accessebility-guess.png" alt="Accessebility Validation">
-</details>
-<details><summary>Quiz page</summary>
-<img src="docs/validation/accessebility/accessebility-quiz.png" alt="Accessebility Validation">
-</details>
-<details><summary>Contact page</summary>
-<img src="docs/validation/accessebility/accessebility-contact.png" alt="Accessebility Validation">
 </details>
 
 ### Performance
@@ -467,7 +475,8 @@ The website was tested on the following browsers:
 
 | **Bug**       | **Fix**        |
 | --------------| ---------------|
-| User can guess number after game finished  |Leave it on the next projects|
+| User can guess number after game finished  |Remove guess input and guess button|
+| Guess Button and Input doesn't shown after reset game  |Add input and button with JavaScript|
 | Low performance | Use local folders instead of external links for images |
 | Low SEO | Add meta description and meta keywords to increase it  |
 
@@ -479,7 +488,7 @@ The website was tested on the following browsers:
 - [Button generator](https://css3buttongenerator.com/) was taken to generate buttons style.
 
 ### Media
-- GIFs for Guess a Number game were taken from [GIPHY - Be Animated](https://giphy.com/)
+- Images for Guess a Number game were taken from [GIPHY - Be Animated](https://giphy.com/)
 - [ColorSpace](mycolor.space) - used to make background palette for main containers
 - [Walpapers Platform](https://wallpaperset.com/) was used for background image
 - The creation of the [404 page](https://viacheslav1510.github.io/Portfolio_Project_1-Explore_Ukraine/Pulp%20Fiction) was inspired by Pulp Fiction movie.
