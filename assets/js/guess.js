@@ -15,6 +15,7 @@ let message = document.getElementById('message');
 let gameImage = document.getElementById('image');
 let currentScoreElement = document.getElementById('cur-score');
 let atemptsLeftElement = document.getElementById('attempts');
+let guessContainer = document.getElementsByClassName('guess')[0];
 
 let curScore = 4;
 let attemptsLeft = 4;
@@ -51,8 +52,10 @@ function checkAnswer() {
             gameImage.src = "assets/images/guess-right.webp";
             highScore = curScore > highScore ? curScore : highScore;
             highestScore.textContent = highScore;
-            guessInput.remove();
-            guessBtn.remove();
+            guessContainer.remove();
+            //guessInput.remove();
+            //guessBtn.remove();
+
         } else if (guessNumber <= 0 || guessNumber > 10 || isNaN(guessNumber)) {
             message.textContent = "Please enter the number from 1 to 10";
             gameImage.src = "assets/images/guess-please.webp";
@@ -91,6 +94,6 @@ resetBtn.addEventListener('click', function() {
     atemptsLeftElement.textContent = attemptsLeft;
     guessInput.value = '';
     gameImage.src = "assets/images/guess-start.webp";
-    document.querySelector('guess')[0].parentNode.insertBefore(guessInput, document.querySelector('guess')[0].nextElementSibling );
-    guessInput.parentNode.insertBefore(guessBtn, guessInput.nextElementSibling);
+    let guessScoreContainer = document.getElementsByClassName('guess-score')[0];
+    guessScoreContainer.parentNode.insertBefore(guessContainer, guessScoreContainer);
 });
