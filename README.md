@@ -255,7 +255,7 @@ The website has 3 webpages
 ## Validation
 ### HTML Validation
 Tested HTML code with [W3C Validator](https://validator.w3.org/). 
-- index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGMQ%2F) - No Errors Found
+- index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGNQ%2F) - No Errors Found
 
   - 1 info displayed
 
@@ -263,14 +263,14 @@ Tested HTML code with [W3C Validator](https://validator.w3.org/).
 |-------------|-------------|----------------------|-------------|
 | Warning | `<link rel="stylesheet" href="assets/css/style.css"/>` | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | HTML does not require the slash but I prefer put closing tag for better reading code|
 
-- quiz.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGMQ%2Fquiz.html) - No Errors Found
+- quiz.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGNQ%2Fquiz.html) - No Errors Found
   - 1 info displayed
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
 | Warning | `<link rel="stylesheet" href="assets/css/style.css"/>` | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | HTML does not require the slash but I prefer put closing tag for better reading code|
 
-- contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGMQ%2Fcontact.html) - No Errors Found
+- contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGNQ%2Fcontact.html) - No Errors Found
   - 2 Warning displayed
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -279,13 +279,13 @@ Tested HTML code with [W3C Validator](https://validator.w3.org/).
 
 ### CSS Validation
 Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/). Passed with no errors.
-- Website [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGMQ%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - No Errors Found
+- Website [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGNQ%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - No Errors Found
 
 ### Accessibility
 [Wave Validator](https://wave.webaim.org/) web accessibility evaluation tool was used to ensure the website met high accessibility standards.
-- index.html [results](https://wave.webaim.org/report#/https://viacheslav1510.github.io/CI_PP2_GGMQ/index.html)
-- quiz.html [results](https://wave.webaim.org/report#/https://viacheslav1510.github.io/CI_PP2_GGMQ/quiz.html)
-- contact.html [results](https://wave.webaim.org/report#/https://viacheslav1510.github.io/CI_PP2_GGMQ/contact.html)
+- index.html [results](https://wave.webaim.org/report#/https://viacheslav1510.github.io/CI_PP2_GGNQ/index.html)
+- quiz.html [results](https://wave.webaim.org/report#/https://viacheslav1510.github.io/CI_PP2_GGNQ/quiz.html)
+- contact.html [results](https://wave.webaim.org/report#/https://viacheslav1510.github.io/CI_PP2_GGNQ/contact.html)
 
 #### Alerts
 - All the pages have An Alert "No heading structure", that means The page has no headings. I didn't put headings in file, because there is no any content for it.
