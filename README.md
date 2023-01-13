@@ -294,7 +294,7 @@ Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/c
 
 ### Performance
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
-- Guess a Number page. Performace is not good enough because I'm using external link for main GIF animation instead of video format.
+- Guess a Number page
   - <details><summary>Desktop</summary>
     <img src="docs/validation/performance/guess-performance-desktop.png" alt="Performance">
     </details>
@@ -468,7 +468,7 @@ The website was tested on the following browsers:
 | **Bug**       | **Fix**        |
 | --------------| ---------------|
 | User can guess number after game finished  |Leave it on the next projects|
-| Low performance | Use video instead of external links  |
+| Low performance | Use local folders instead of external links for images |
 | Low SEO | Add meta description and meta keywords to increase it  |
 
 ## Credits
