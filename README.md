@@ -50,6 +50,10 @@ The website represents three pages with Guess a Number game, Quiz about math and
   - [Browser compatibility](#browser-compatibility)
 - [Testing user stories](#testing-user-stories)
 - [Bugs](#bugs)
+- [Deployment \& Local Development](#deployment--local-development)
+  - [Deployment](#deployment)
+  - [How to Fork this GitHub Repository](#how-to-fork-this-github-repository)
+  - [How to Clone this GitHub Repository](#how-to-clone-this-github-repository)
 - [Credits](#credits)
   - [Code](#code)
   - [Media](#media)
@@ -479,6 +483,20 @@ The website was tested on the following browsers:
 | Guess Button and Input doesn't shown after reset game  |Add input and button with JavaScript|
 | Low performance | Use local folders instead of external links for images |
 | Low SEO | Add meta description and meta keywords to increase it  |
+
+## Deployment & Local Development
+All of the following steps require a logged in github account.
+### Deployment
+The project was deployed to GitHub Pages. 
+The instructions to achieve this are available [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+### How to Fork this GitHub Repository
+1. Go to the repository for this project.
+2. Click the Fork button in the top right corner.
+### How to Clone this GitHub Repository
+1. Go to the repository for this project.
+2. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+3. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+4. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Credits
 ### Code
