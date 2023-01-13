@@ -82,7 +82,7 @@ The website represents three pages with Guess a Number game, Quiz about math and
 
 ### User Stories
 #### First-time User 
-1. As a first time user I want to understant what this site about
+1. As a first time user I want to understand what this site about
 2. As a first time user I want to play interactive game
 3. I want program to memorize my high score
 4. I want play game as many times as i want
@@ -338,7 +338,7 @@ The website was tested on the following browsers:
 - Safari
 
 ## Testing user stories
-1. As a first time user I want to understant what this site about
+1. As a first time user I want to understand what this site about
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
