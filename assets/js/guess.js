@@ -51,7 +51,9 @@ function checkAnswer() {
             gameImage.src = "assets/images/guess-right.webp";
             highScore = curScore > highScore ? curScore : highScore;
             highestScore.textContent = highScore;
-        } else if (guessNumber === 0 || guessNumber > 10) {
+            guessInput.remove();
+            guessBtn.remove();
+        } else if (guessNumber <= 0 || guessNumber > 10 || isNaN(guessNumber)) {
             message.textContent = "Please enter the number from 1 to 10";
             gameImage.src = "assets/images/guess-please.webp";
             curScore--;
@@ -89,4 +91,6 @@ resetBtn.addEventListener('click', function() {
     atemptsLeftElement.textContent = attemptsLeft;
     guessInput.value = '';
     gameImage.src = "assets/images/guess-start.webp";
+    document.querySelector('guess')[0].parentNode.insertBefore(guessInput, document.querySelector('guess')[0].nextElementSibling );
+    guessInput.parentNode.insertBefore(guessBtn, guessInput.nextElementSibling);
 });
