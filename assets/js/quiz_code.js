@@ -8,6 +8,7 @@ let submitBtn = document.getElementById('submit');
 let currentScoreQuiz = document.getElementById('cur-score');
 let progressBar = document.getElementById('progress-line');
 let quizGameContainer = document.querySelector('.quiz-game');
+var quiz;
 
 shuffleQuestions();
 showQuestion();
@@ -111,7 +112,7 @@ function showResult() {
  * it gets ProgressBar "width" attribute and increases by 10% step by step.
  */
 function updateProgressBar() {
-    progressBar.setAttribute("style", "width:0%")
+    progressBar.setAttribute("style", "width:0%");
     percentage += 10;
     progressBar.style.width = `${percentage}%`;
     progressBar.innerHTML = `${percentage}%`;

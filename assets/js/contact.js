@@ -1,3 +1,4 @@
+var emailjs
 /**
  * Add an eventListener to listen for the submit.
  * Sends an email to site owner through emailJS if the submit is fired.
@@ -6,6 +7,7 @@
  */
 document.querySelector('.contact-form').addEventListener("submit", function(event) { 
     event.preventDefault();
+    emailjs.init("Cp8pRCiyyR-UpYw_b");
     emailjs.send("service_9ivf2es","template_3jzkvro",{
         from_name: document.getElementById("name").value,
         from_email: document.getElementById("email").value,

@@ -1,4 +1,4 @@
-const quiz = [
+var quiz = [
     {
       question: "What is the derivative of Acceleration with respect to time?",
       correct_answer: "Jerk",
