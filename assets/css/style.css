@@ -15,6 +15,17 @@ body {
   height: 100vh;
 }
 
+.collapse {
+  justify-content: center;
+}
+
+.navbar-nav a {
+  padding: 0;
+  margin: 0 15px;
+}
+
+
+
 /* container for guess game and contact form */
 .game-container {
   font-size: 1.5rem;
@@ -34,10 +45,14 @@ body {
 /* guess number game top */
 .top {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 1%;
 }
-  
+
+.highest-score {
+  margin-right: 15px;
+}
+
 .top p {
   background-color: #CD0404;
   border-radius: 8px;
@@ -50,13 +65,13 @@ body {
 }
 
 #reset {
-  font-size: 1.5rem;
+  padding: 5px;
+  font-size: 1.25rem;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 15px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 1rem;
   background: #CD0404;
   border: solid #171d21 2px;
   text-decoration: none;
@@ -71,7 +86,7 @@ body {
 #message {
   text-align: center;
   color: #170055;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
   
@@ -98,7 +113,7 @@ input[type=number] {
   font-size: 1.5rem;
   width: 10%;
   padding: 3px 5px;
-  margin: 8px 0;
+  margin: 8px 10px;
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -115,7 +130,8 @@ input[type=number] {
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 5px 10px;
+  margin-top: 5px;
   text-decoration: none;
 }
   
@@ -126,6 +142,7 @@ input[type=number] {
 
 .guess-score {
   font-weight: bold;
+  font-size: 1.25rem;
 }
 
 /* footer */
@@ -133,7 +150,6 @@ input[type=number] {
   position:fixed;
   width: 100%;
   bottom: 0px;
-  padding: 2%;
   text-align: center;
   background-color: white;
   margin-top: auto;
@@ -162,26 +178,21 @@ input[type=number] {
   width: 40%;
   position: absolute;
   left: 30%;
-  top: 20%;
+  top: 25%;
   border: 2px solid #EAC7C7;
   background-image: linear-gradient(to right top, #b0a8b9, 
                   #d0b0bc, #e8bcb4, #ebd0ac, #d7e9b9);
   border-radius: 10px;
 }
 
-.score p{
+.score {
+  text-align: center;
   background-image: linear-gradient(to left top, #b0a8b9, #d0b0bc, #e8bcb4, #ebd0ac, #d7e9b9);
   margin: 20px 0px;
   font-size: 1.5rem;
   color: #42032C;
 }
 
-.progress {
-  text-align: center;
-  font-weight: bold;
-  margin: 2% 0%;
-}
- 
 #question {
   padding: 20px;
   text-align: center;
@@ -194,6 +205,7 @@ input[type=number] {
   border: 1px solid #EAC7C7;
   font-size: 1.25rem;
   padding: 10px;
+  margin-left: -5%;
 }
 
 #progress-bar {
@@ -339,10 +351,10 @@ textarea {
 @media screen and (max-width: 950px) {
   /* guess media */
   .game-container {
-    height: 50vh;
+    height: 40vh;
     width: 70%;
     left: 16%;
-    top: 20%;
+    top: 15%;
   }
   
   /* quiz media */
@@ -350,15 +362,15 @@ textarea {
     height: 50vh;
     width: 70%;
     left: 16%;
-    top: 20%;
+    top: 25%;
   }
   
   #question {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   
   .quiz-game li {
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 15px;
   }
    
@@ -383,11 +395,23 @@ textarea {
   }
 }
 
+@media screen and (max-width: 580px) {
+  /* guess media */
+  .game-container {
+    width: 80%;
+    left: 10%;
+  }
+
+  #message {
+    font-size: 1.2rem;
+  }
+}
+
 @media screen and (max-width: 420px) {
   /* guess media */
   .game-container {
     position: relative;
-    margin-top: 15%;
+    margin-top: 5%;
     width: 100%;
     top: 0;
     left: 0;

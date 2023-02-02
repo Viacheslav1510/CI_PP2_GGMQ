@@ -8,15 +8,33 @@
         <meta name="keywords" content="guess, game, number, fun">
         <title>Guess Number</title>
         <link rel="stylesheet" href="assets/css/style.css"/>
+        <!-- Bootstrap instalation -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
         <!-- Favicon installation -->
         <link rel="icon" href="assets/images/favicon.ico">
     </head>
     <body>
+        <div class="navigation">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#">Guess A Number</a>
+                      <a class="nav-link" href="quiz.html">Math quiz</a>
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
         <div class="top">
             <div>
                 <button id="reset" type="button" name="button">Reset Game</button>
             </div>
-            <div>
+            <div class="highest-score">
                 <p>Highest score: <span id="high-score"></span></p>
             </div>
         </div>
@@ -43,6 +61,8 @@
         </footer>
         <!-- Font Awesome icon installation -->
         <script src="https://kit.fontawesome.com/0f9cf7d513.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap script-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
         <!-- JavaScript file installation -->
         <script src="assets/js/guess.js"></script>
     </body>
