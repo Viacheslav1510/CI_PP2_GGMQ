@@ -15,6 +15,12 @@ body {
   height: 100vh;
 }
 
+.navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
 .collapse {
   justify-content: center;
 }
@@ -24,7 +30,15 @@ body {
   margin: 0 15px;
 }
 
-
+.top-hint {
+  z-index: 0;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  top: 6%;
+  font-size: 1.5rem;
+  background-color: #1A0000;
+}
 
 /* container for guess game and contact form */
 .game-container {
@@ -46,7 +60,7 @@ body {
 .top {
   display: flex;
   justify-content: space-between;
-  margin-top: 1%;
+  margin-top: 9%;
 }
 
 .highest-score {
@@ -349,12 +363,15 @@ textarea {
 
 /* media queries*/
 @media screen and (max-width: 950px) {
+  .top {
+    margin-top: 10%;
+  }
   /* guess media */
   .game-container {
     height: 40vh;
     width: 70%;
-    left: 16%;
-    top: 15%;
+    left: 14%;
+    top: 20%;
   }
   
   /* quiz media */
@@ -396,6 +413,13 @@ textarea {
 }
 
 @media screen and (max-width: 580px) {
+  .top {
+    margin-top: 15%;
+  }
+
+  .top-hint {
+    font-size: 1.25rem;
+  }
   /* guess media */
   .game-container {
     width: 80%;
@@ -413,6 +437,10 @@ textarea {
 }
 
 @media screen and (max-width: 420px) {
+  .top {
+    margin-top: 20%;
+  }
+
   /* guess media */
   .game-container {
     position: relative;
@@ -459,7 +487,11 @@ textarea {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
+  .top-hint {
+    top: 8%;
+    font-size: 1rem;
+  }
   /* guess media */
   .game-container {
     position: relative;
@@ -497,5 +529,30 @@ textarea {
   /* error page */
   .error-image {
     height: 100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #reset {
+    font-size: 1rem;
+  }
+
+  .top p {
+    border-radius: 10px;
+    padding: 6px 5px;
+    font-size: 1rem;
+    margin-left: 0;
+  }
+
+  .top-hint {
+    top: 10%;
+  }
+
+  .game-container {
+    top: -5%;
+  }
+
+  .guess {
+    height: 45px;
   }
 }
