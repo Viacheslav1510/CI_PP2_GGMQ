@@ -1,4 +1,4 @@
-var emailjs
+var emailjs;
 /**
  * Add an eventListener to listen for the submit.
  * Sends an email to site owner through emailJS if the submit is fired.

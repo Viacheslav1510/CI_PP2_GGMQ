@@ -28,6 +28,7 @@ The website represents three pages with Guess a Number game, Quiz about math and
   - [Languages](#languages)
   - [Frameworks, Libraries \& Tools](#frameworks-libraries--tools)
 - [Features](#features)
+  - [Navigation](#navigation)
   - [Guess a Number game page](#guess-a-number-game-page)
     - [Page loaded](#page-loaded)
     - [Game started](#game-started)
@@ -159,6 +160,14 @@ The website cosists of three separate pages:
 
 ## Features
 The website has 3 webpages
+### Navigation
+- Every page has navbar to easy navigate through pages
+- User can tap any link to easily open page
+- User stories covered: 5
+<details><summary>See feature</summary>
+<img src="docs/features/navbar.png">
+</details>
+
 ### Guess a Number game page
 #### Page loaded
   - When the page is loaded you can see title what this game about
@@ -278,8 +287,8 @@ Tested HTML code with [W3C Validator](https://validator.w3.org/).
 | Warning | `<script type="text/javascript"↩` | The type attribute is unnecessary for JavaScript resources. | Script was taken from JSHint documentation, so I didn't changed it|
 
 ### CSS Validation
-Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/). Passed with no errors.
-- Website [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGNQ%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - No Errors Found
+Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+- Website [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fviacheslav1510.github.io%2FCI_PP2_GGNQ%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - Found some errors because of using Bootstrap navbar. In general, no more errors were found
 
 ### Accessibility
 [Wave Validator](https://wave.webaim.org/) web accessibility evaluation tool was used to ensure the website met high accessibility standards.
@@ -303,8 +312,6 @@ Tested CSS code with [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/c
 <details><summary>contact.js</summary>
 <img src="docs/validation/js/contact-js.png" alt="Js Validation">
 </details>
-
-- JSHint found undefined variable "emailjs" in contact.js file. This variable appointed in the contact.html due to specified in the [EmailJS](https://www.emailjs.com/docs/sdk/installation/) documentation
 
 ### Performance
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
