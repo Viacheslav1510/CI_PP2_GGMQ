@@ -49,7 +49,7 @@ body {
   width: 40%;
   position: absolute;
   left: 30%;
-  top: 10%;
+  top: 15vh;
   border: 2px solid #EAC7C7;
   background-image: linear-gradient(to right top, #b0a8b9, #d0b0bc,
                        #e8bcb4, #ebd0ac, #d7e9b9);
@@ -367,16 +367,28 @@ textarea {
 /* media queries*/
 @media screen and (max-width: 950px) {
   .top {
-    margin-top: 10%;
+    margin-top: 15%;
+  }
+  
+  .top-hint {
+    top: 8%;
   }
   /* guess media */
   .game-container {
-    height: 40vh;
-    width: 70%;
-    left: 14%;
+    height: 35vh;
+    width: 60%;
+    left: 20%;
     top: 20%;
   }
   
+  #image {
+    /* width: 100%; */
+    height: 350px;
+  }
+
+  .guess {
+    height: 50px;
+  }
   /* quiz media */
   .quiz-game {
     height: 50vh;
@@ -398,7 +410,10 @@ textarea {
     font-size: 20px;
     margin-top: 5%;
   }
-
+  /* contact page */
+  .contact-form {
+    font-size: 1.2rem;
+  }
   /* error page */
   #not-found {
     position: relative;
@@ -415,6 +430,13 @@ textarea {
   }
 }
 
+@media screen and (max-width: 750px) {
+  .top {
+    margin-top: 10%;
+  }
+}
+  
+
 @media screen and (max-width: 580px) {
   .top {
     margin-top: 15%;
@@ -427,6 +449,29 @@ textarea {
   .game-container {
     width: 80%;
     left: 10%;
+    top: auto;
+  }
+
+  .game-container p, button {
+    margin: 0;
+  }
+  
+  .guess-score {
+    font-size: 1rem;
+  }
+
+  .guess {
+    height: 40px;
+  }
+
+  input[type=number] {
+    margin: 3px;
+  }
+
+  #check {
+    font-size: 15px;
+    padding: 5px;
+    margin: 3px;
   }
 
   #message {
@@ -454,11 +499,9 @@ textarea {
 
   /* guess media */
   .game-container {
-    position: relative;
-    margin-top: 5%;
-    width: 100%;
-    top: 0;
+    margin-top: 0;
     left: 0;
+    width: 100%;
   }
   
   /* quiz media */

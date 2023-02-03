@@ -31,7 +31,7 @@ function submitMessage() {
     <button id="send-message" type="submit">One more message</button>
     `;
 
-    document.querySelector('.game-container').style.top = '0';
+    document.querySelector('.game-container').style.top = '10vh';
     document.querySelector('.game-container').innerHTML = subMessage;
     let sendMessageButton = document.getElementById('send-message');
     sendMessageButton.onclick = () => history.go();
